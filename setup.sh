@@ -52,6 +52,8 @@ ln -sf dotfiles/.emacs.d .
 
 echo "[9/9] Installing remaining packages etc..."
 
-sudo apt-get install -y python-software-properties python g++ nodejs make
+sudo add-apt-repository ppa:chris-lea/node.js
+sudo apt-get install -y python-software-properties nodejs python g++ make npm
+sudo npm install -g  express
 
 echo "Done with Setup!"
