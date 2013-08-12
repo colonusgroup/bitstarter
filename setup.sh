@@ -54,6 +54,6 @@ echo "[9/9] Installing remaining packages etc..."
 
 sudo add-apt-repository ppa:chris-lea/node.js
 sudo apt-get install -y python-software-properties nodejs python g++ make npm
-sudo npm install -g  express
+sudo npm install  express
 
 echo "Done with Setup!"
